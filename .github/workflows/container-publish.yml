@@ -6,7 +6,7 @@ on:
     branches: [ main ]
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ehfd/nvidia-dind
+  IMAGE_NAME: hdwlab/nvidia-dind
 jobs:
   build:
     runs-on: ubuntu-latest
