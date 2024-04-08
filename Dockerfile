@@ -16,6 +16,7 @@ RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install --n
         gnupg \
         software-properties-common \
         supervisor \
+        sshfs \
         wget && \
     rm -rf /var/lib/apt/list/*
 
